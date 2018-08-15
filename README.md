@@ -27,4 +27,9 @@ put your raw audio file into the webrtcvad folder. Run vad with `python vad.py <
 
 5. A one sec mute is to be attached at the beginning and the end of each chunk file. For another length, please adapt the parameter in `def(padding)` in `vad.py`
 
+# Example
+![image](https://github.com/guozhonghao1994/Voice_Activity_Detection/blob/master/example.png)
+`king_32000.wav` is a 2-channels, 32000Hz sample rate audio file. Run vad by `python vad.py 0 30 500 king_32000.wav`.
+We can see 10 parts are seperated out from original file. For those noise parts mistakenly recognized as "voiced", we can either manually throw them away or write another code to filt them out. 
+
 
