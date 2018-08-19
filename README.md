@@ -1,4 +1,4 @@
-# Voice_Activity_Detection
+# Voice_Activity_Detection_v1
 This is an implement of voice activity detction based on google webrtc. 
 A `VAD <https://en.wikipedia.org/wiki/Voice_activity_detection>`_
 classifies a piece of audio data as being voiced or unvoiced. It can
